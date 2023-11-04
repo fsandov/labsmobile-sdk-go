@@ -3,6 +3,8 @@
 [![GoDoc](https://godoc.org/github.com/fsandov/labsmobile-sdk-go?status.svg)](https://godoc.org/github.com/fsandov/labsmobile-sdk-go)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
+This is a Go SDK for the [Labsmobile SMS Gateway API](https://www.labsmobile.com).
+
 ```bash
 go get github.com/fsandov/labsmobile-sdk-go
 ```
