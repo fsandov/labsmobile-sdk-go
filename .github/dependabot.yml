@@ -1,8 +1,20 @@
 version: 2
 updates:
   - package-ecosystem: gomod
-    directory: "/"
+    directory: /
     schedule:
-      interval: weekly
-      day: "sunday"
-      time: "11:00"
+      interval: monthly
+    open-pull-requests-limit: 5
+    groups:
+      gomod-all:
+        patterns:
+          - "*"
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 5
+    groups:
+      github-actions-all:
+        patterns:
+          - "*"
